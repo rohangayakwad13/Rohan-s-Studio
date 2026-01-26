@@ -23,8 +23,8 @@ Agar aapko Rohan Studio ka koi feature samajhna ho, toh "How to Use" tab me step
 Yeh guide aapko batayega ki kaun sa calculator kaise use karna hai, kis field me kya values enter karni hain, aur result kaise interpret karna hai.
 
 ye char file pages wale folder me banayi gai he.
-pages: < Folder
-  info.py < File
-  use.py < File
-  sip_calc.py < File
-  project1.py < File
+
+info.py 
+use.py
+sip_calc.py
+project1.py
