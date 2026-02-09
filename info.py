@@ -2,29 +2,52 @@ import streamlit as st
 
 st.set_page_config(page_title="Studio Info", page_icon="ℹ️", layout="centered")
 st.title("INFO of this Rohan Studio web")
-st.info("""Rohan Studio – Info
+st.info("""✅ Rohan Studio Info
 
-Rohan Studio ek simple aur powerful multi-tool application hai jisme aap daily use ke important calculators aur guides ko ek hi jagah access kar sakte ho. Yaha har feature ko easy steps ke saath design kiya gaya hai taaki koi bhi user bina confusion ke use kar sake.
+Yeh bataata hai ki app kya karta hai aur kaise banaya hai.
 
-1. SIP Calculator
+ℹ️ About Rohan Studio
 
-Is tool ki madad se aap apne monthly investment (SIP) ka future value calculate kar sakte ho.
-Bas apna investment amount, return rate aur time period enter karein — calculator turant aapko batayega ki future me kitna fund ban sakta hai.
+Rohan Studio ek multipurpose learning application hai jo mathematics aur data-processing tools ko ek hi jagah par provide karta hai.
+Ye app Streamlit, Python, NumPy, Pandas aur Lottie Animations ka use karke banaya gaya hai.
 
-2. Area of Circle
+Is app ka main goal hai students ko simple aur interactive way me important formulas aur tools sikhana.
 
-Yaha aap kisi bhi circle ka area sirf radius enter karke nikal sakte ho.
-Formula automatic apply hota hai, aur result instantly show hota hai.
+🧩 Features
 
-3. Simple Interest
+Standard Error (SE) Calculator
+Do values ke basis par standard error calculate karta hai.
 
-Is section me aap principal, rate aur time enter karke simple interest aur total amount ko calculate kar sakte ho.
-Yeh students aur daily calculation karne walo ke liye best feature hai.
+Data Cleaner
+CSV file upload karke
+✔ Missing values (NaN) remove kar sakte ho
+✔ Specific columns select karke filtered data dekh sakte ho
 
-4. How to Use
+General Calculator
+Normal mathematical calculations ke liye.
 
-Agar aapko Rohan Studio ka koi feature samajhna ho, toh "How to Use" tab me step-by-step guidance di gayi hai.
-Yeh guide aapko batayega ki kaun sa calculator kaise use karna hai, kis field me kya values enter karni hain, aur result kaise interpret karna hai.""")
+SIP Calculator
+Monthly investment ka future value calculate karta hai.
+
+Cramer's Rule (2 & 3 variables)
+Linear equations solve karta hai step-by-step.
+
+Quadratic Equation Solver
+a, b, c ke basis par roots find karta hai.
+
+Matrix Solver
+2×2 aur 3×3 matrices solve karne ka tool.
+
+Factorization Formulas
+Important math formulas ek jagah par.
+
+🎯 Purpose
+
+Students ko important maths topics practical way me sikhana
+
+Coding + Mathematics dono ek platform me provide karna
+
+Streamlit ka real-world use dikhana""")
 
 if st.button("Main"):
     st.switch_page("main.py")
