@@ -1,30 +1,101 @@
-Rohan Studio – Info
+# 🤖 Rohan Studio  
+A multi-purpose interactive mathematics and data-processing web application built using **Streamlit**, **Python**, **NumPy**, **Pandas**, and **Lottie Animations**.
 
-Rohan Studio ek simple aur powerful multi-tool application hai jisme aap daily use ke important calculators aur guides ko ek hi jagah access kar sakte ho. Yaha har feature ko easy steps ke saath design kiya gaya hai taaki koi bhi user bina confusion ke use kar sake.
+Rohan Studio ka main goal students ko mathematics aur data tools real examples ke saath sikhana hai — simple, fast, and visually clear UI ke saath.
 
-1. SIP Calculator
+---
 
-Is tool ki madad se aap apne monthly investment (SIP) ka future value calculate kar sakte ho.
-Bas apna investment amount, return rate aur time period enter karein — calculator turant aapko batayega ki future me kitna fund ban sakta hai.
+## 📌 Features
 
-2. Area of Circle
+### 🔸 Standard Error (SE) Calculator  
+- Do values se Standard Error calculate karta hai.  
+- NumPy standard deviation formula ka use.  
 
-Yaha aap kisi bhi circle ka area sirf radius enter karke nikal sakte ho.
-Formula automatic apply hota hai, aur result instantly show hota hai.
+### 🔸 Data Cleaner  
+- CSV file upload  
+- Column-wise filtering  
+- NaN (missing) values remove karne ka option  
+- Cleaned data preview  
 
-3. Simple Interest
+### 🔸 Basic Calculator  
+- Normal mathematical operations (Add, Subtract, Multiply, Divide)
 
-Is section me aap principal, rate aur time enter karke simple interest aur total amount ko calculate kar sakte ho.
-Yeh students aur daily calculation karne walo ke liye best feature hai.
+### 🔸 SIP Calculator  
+- Monthly investment ka future value calculate karta hai  
+- Real finance-based calculations  
 
-4. How to Use
+### 🔸 Cramer's Rule Solver (2 & 3 Variables)  
+- Linear equations ko quickly solve karta hai  
+- Determinant method use hota hai  
 
-Agar aapko Rohan Studio ka koi feature samajhna ho, toh "How to Use" tab me step-by-step guidance di gayi hai.
-Yeh guide aapko batayega ki kaun sa calculator kaise use karna hai, kis field me kya values enter karni hain, aur result kaise interpret karna hai.
+### 🔸 Quadratic Equation Solver  
+- a, b, c values input karke roots find kar sakte ho  
+- Real & imaginary roots dono support  
 
-ye char file pages wale folder me banayi gai he.
+### 🔸 Matrix Solver  
+- 2×2 / 3×3 matrix operations  
+- Determinant, transpose, inverse (if possible)
 
-info.py 
-use.py
-sip_calc.py
-project1.py
+### 🔸 Factorization Formulas  
+- Important algebra formulas ek jagah listed  
+- Students ke liye quick reference  
+
+---
+
+## 🛠️ Technologies Used
+
+| Technology | Purpose |
+|-----------|---------|
+| **Python** | Main programming language |
+| **Streamlit** | Frontend UI & web app framework |
+| **NumPy** | Mathematical calculations |
+| **Pandas** | Data cleaning & CSV handling |
+| **Lottie** | Animations for UI |
+| **JSON** | Lottie file loading |
+
+---
+
+## 📥 Installation
+
+Follow these steps to run Rohan Studio locally:
+
+### 1️⃣ Clone the project  
+```bash
+git clone https://github.com/your-username/rohan-studio.git
+cd rohan-studio
+
+2️⃣ Install dependencies
+pip install -r requirements.txt
+
+3️⃣ Run the app
+streamlit run app.py
+
+📂 Project Structure
+Rohan-Studio/
+│── app.py
+│── requirements.txt
+│── Python logo.json
+│── pages/
+│   ├── Info.py
+│   ├── use.py
+│   ├── project1.py
+│   ├── sip_calc.py
+│   ├── two_variable.py
+│   ├── three_variable.py
+│   ├── quadratic.py
+│   ├── matrix.py
+│   └── Factorization_Formulas.py
+
+🎯 Purpose of Project
+
+Students ko maths practical way me sikhana
+
+Streamlit ka real use samjhana
+
+Multiple tools ek hi app me dena
+
+Coding + Mathematics ka combo
+
+✨ Author
+
+Rohan Raju Gayakwad
